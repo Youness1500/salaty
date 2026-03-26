@@ -852,13 +852,28 @@ export default function Salaty() {
           <div style={{ textAlign: "center", fontSize: 12, color: textSecondary, marginTop: 24, letterSpacing: "0.05em" }}>
             Prayer times powered by AlAdhan API · {CALC_METHODS.find((m) => m.id === calcMethod)?.name}
           </div>
-          <div style={{ textAlign: "center", fontSize: 12, color: textSecondary, marginTop: 24, letterSpacing: "0.05em" }}>
-            Cooperate All right reserved  © 2026
+          <div
+          style={{
+            textAlign: "center",
+            fontSize: 12,
+            color: textSecondary,
+            marginTop: 24,
+            letterSpacing: "0.05em"
+          }}
+        >
+          © 2026 YOUNESS OUJDID. All rights reserved.{" "}
+          <span>
             Portfolio:{" "}
-            <a href="https://youness-oujdid.github.io/" target="_blank" rel="noopener noreferrer" style={{ color: gold }}>
+            <a
+              href="https://youness-oujdid.github.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: gold }}
+            >
               youness-oujdid.github.io
             </a>
-          </div>
+          </span>
+        </div>
         </div>
 
         {/* Settings Panel */}
